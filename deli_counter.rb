@@ -12,7 +12,7 @@ def line(katz_deli)
      counter += 1
     end
   end
-  line_output
+  puts line_output
 end
 
 def take_a_number(katz_deli, name)
