@@ -11,7 +11,7 @@ def line(katz_deli)
      sentence += "#{counter+1}. #{katz_deli[counter]} "
      counter += 1
     end
-    sentence
+    puts sentence
   end
 end
 
