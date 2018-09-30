@@ -6,11 +6,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 0
-    puts "The line is currently: "
+    sentence = "The line is currently: "
     until counter == arr.size
-     puts "#{counter+1}. #{katz_deli[counter]} "
+     sentence += "#{counter+1}. #{katz_deli[counter]} "
      counter += 1
     end
+    sentence
   end
 end
 
