@@ -6,13 +6,12 @@ def line(katz_deli)
     puts "The line is currently empty."
   else
     counter = 0
-    line_output = "The line is currently: "
+    puts "The line is currently: "
     until counter == arr.size
-     line_output += "#{counter+1}. #{katz_deli[counter]} "
+     puts "#{counter+1}. #{katz_deli[counter]} "
      counter += 1
     end
   end
-  puts line_output
 end
 
 def take_a_number(katz_deli, name)
