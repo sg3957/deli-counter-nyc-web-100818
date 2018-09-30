@@ -7,7 +7,7 @@ def line(katz_deli)
   else
     counter = 0
     sentence = []
-    sentence << "The line is currently: "
+    sentence << "The line is currently:"
     until counter == katz_deli.size
      sentence << "#{counter+1}. #{katz_deli[counter]}"
      counter += 1
