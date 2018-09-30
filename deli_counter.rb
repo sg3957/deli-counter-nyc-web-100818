@@ -8,7 +8,7 @@ def line(katz_deli)
     counter = 0
     line_output = "The line is currently: "
     until counter == arr.size
-     line_output + "#{counter+1}. #{katz_deli[counter]} "
+     line_output += "#{counter+1}. #{katz_deli[counter]} "
      counter += 1
     end
   end
